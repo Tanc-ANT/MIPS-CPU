@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="D:/BUAA/PipelineCPU10/testbench_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="testbench" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="20" />
+   <wvobject fp_name="/testbench/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/uut/pc" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">pc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/uut/instr_F" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">instr_F[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instr_F[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/uut/instr_D" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">instr_D[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instr_D[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/uut/HiLo_D" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">HiLo_D</obj_property>
+      <obj_property name="ObjectShortName">HiLo_D</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/uut/Start_D" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">Start_D</obj_property>
+      <obj_property name="ObjectShortName">Start_D</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/uut/MDControl_D" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">MDControl_D[1:0]</obj_property>
+      <obj_property name="ObjectShortName">MDControl_D[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/uut/MDWrite_D" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">MDWrite_D</obj_property>
+      <obj_property name="ObjectShortName">MDWrite_D</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/uut/MFC_D" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">MFC_D</obj_property>
+      <obj_property name="ObjectShortName">MFC_D</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/uut/MFC_E" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">MFC_E</obj_property>
+      <obj_property name="ObjectShortName">MFC_E</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/uut/Start_E" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">Start_E</obj_property>
+      <obj_property name="ObjectShortName">Start_E</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/uut/HI" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">HI[31:0]</obj_property>
+      <obj_property name="ObjectShortName">HI[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/uut/LO" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">LO[31:0]</obj_property>
+      <obj_property name="ObjectShortName">LO[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/uut/MDuse" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">MDuse</obj_property>
+      <obj_property name="ObjectShortName">MDuse</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/uut/Busy" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">Busy</obj_property>
+      <obj_property name="ObjectShortName">Busy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/uut/Flush_E" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">Flush_E</obj_property>
+      <obj_property name="ObjectShortName">Flush_E</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/uut/HL_E" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">HL_E[31:0]</obj_property>
+      <obj_property name="ObjectShortName">HL_E[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/uut/HL_M" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">HL_M[31:0]</obj_property>
+      <obj_property name="ObjectShortName">HL_M[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/uut/HL_W" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">HL_W[31:0]</obj_property>
+      <obj_property name="ObjectShortName">HL_W[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+</wave_config>
